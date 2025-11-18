@@ -1,1 +1,0 @@
-select name from {{ ref("demo") }}
