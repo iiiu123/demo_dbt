@@ -1,0 +1,11 @@
+my_dbt_demo:
+  outputs:
+    dev:
+      catalog: workspace
+      host: dbc-b570531d-458b.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/18b11e1b1a47da20
+      schema: default
+      threads: 1
+      token: dapi59b78452cf707fd94d981442a824ddac
+      type: databricks
+  target: dev
